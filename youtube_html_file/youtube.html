@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+		Youtube Clone
+	</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/youtube_css_file/general.css">
+    <link rel="stylesheet" href="/youtube_css_file/video.css">
+	<link rel="stylesheet" href="/youtube_css_file/header.css">
+	<link rel="stylesheet" href="/youtube_css_file/sidebar.css">
+</head>
+
+<body>
+	<!--
+		Youtube Header
+		position: fixed
+	-->
+	<div class="header_container">
+			<div class="left_side">
+				<img class="youtube_menu_icon" src="/header_icon/hamburger-menu.svg" alt="">
+				<img class="youtube_logo" src="/header_icon/youtube-logo.svg" alt="">
+			</div>
+
+			<div class="middle_side">
+				<input class="youtube_search_bar" type="text" placeholder="Search">
+				
+				<button class="youtube_search_button">
+					<img class="svg-search-button" src="/header_icon/search.svg" alt="">
+				</button>
+
+				<button class="youtube_microphone">
+					<img class="svg-microphone-button" src="/header_icon/voice-search-icon.svg" alt="">
+				</button>
+
+			</div>
+
+			<div class="right_side">
+				<button class="youtube-create-video">
+					<img class="create-logo" src="/header_icon/upload.svg" alt="">
+				</button>
+
+				<button class="youtube-notification">
+					<img class="notification-icon" src="/header_icon/notifications.svg" alt="">
+				</button>
+				
+				<img  class="channel-image" src="/header_icon/channels4_profile.jpg" alt="">
+				
+					
+			</div>
+	</div>
+	
+	<!--Youtube Sidebar-->
+	<div class="sidebar-container">
+		<div class="first-layer-side-bar">	
+			<div class="inside-box-container-for-home">
+			<div class="sidebar-content">
+				<img class="side-bar-icon" src="/side-bar-icon/home.svg" alt="">
+			</div>
+			<p class="side-bar-icon-title">
+				Home	
+			</p>
+			</div>
+
+			<div class="inside-box-container">
+			<div class="sidebar-content">
+				<img class="side-bar-icon" src="/side-bar-icon/subscriptions.svg" alt="">
+			</div>
+			<p class="side-bar-icon-title">
+				Subscriptions	
+			</p>
+			</div>
+
+			<div class="inside-box-container">
+			<div class="sidebar-content">
+				<img class="side-bar-icon" src="/side-bar-icon/explore.svg" alt="">
+			</div>
+			<p class="side-bar-icon-title">
+				Explore	
+			</p>
+			</div>
+		</div>
+
+		<div class="second-layer-side-bar">	
+			<div class="inside-box-container">
+			<div class="sidebar-content">
+				<img class="side-bar-icon" src="/side-bar-icon/library.svg" alt="">
+			</div>
+			<p class="side-bar-icon-title">
+				Library	
+			</p>
+			</div>
+
+			<div class="inside-box-container">
+			<div class="sidebar-content">
+				<img class="side-bar-icon" src="/side-bar-icon/history.svg" alt="">
+			</div>
+			<p class="side-bar-icon-title">
+				History	
+			</p>
+			</div>
+
+			<div class="inside-box-container">
+			<div class="sidebar-content">
+				<img class="side-bar-icon" src="/side-bar-icon/slideshow_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+			</div>
+			<p class="side-bar-icon-title">
+				Your Videos	
+			</p>
+			</div>
+
+			<div class="inside-box-container">
+				<div class="sidebar-content">
+					<img class="side-bar-icon" src="/side-bar-icon/schedule_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+				</div>
+				<p class="side-bar-icon-title">
+					Watch Later
+				</p>
+			</div>
+
+			<div class="inside-box-container">
+				<div class="sidebar-content">
+					<img class="side-bar-icon" src="/side-bar-icon/thumb_up_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+				</div>
+				<p class="side-bar-icon-title">
+					Liked Videos	
+				</p>
+			</div>
+
+			<div class="inside-box-container">
+				<div class="sidebar-content">
+					<img class="side-bar-icon" src="/side-bar-icon/expand_more_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+				</div>
+				<p class="side-bar-icon-title">
+					Show more	
+				</p>
+			</div>
+
+		</div>
+	</div>
+
+	
+	<div class="all_videos_container">
+
+        <!--Video Grid section-->
+
+        <div class="video_grid_container">
+            <!--My video-deseign-start-->
+            <div class="video_preview_container">
+                <img src="/video_images/brodashaggi.webp" alt="">
+                <div class="time_stamp">
+                    14:00
+                </div>
+            </div>
+
+            <div class="video_info_container">
+                <div class="profile_img_container">
+                    <img src="/video_images/brodashaggi-profile.jpg" alt="">
+                </div>
+                <div class="video_info_grid">
+
+                    <div class="video_title">
+                        UBER GUY | Brodashaggi | Jackie Bent | Soso Soberekon
+                    </div>
+
+                    <div class="profile_name">
+                        official BRODA SHAGGI
+                    </div>
+                    <div class="video_stats">
+                        481K views · 2 weeks ago
+                    </div>
+                </div>
+
+                <!-- This place is empty for vert icon-->
+
+            </div>
+            <!--My video-deseign-end-->
+        </div>
+
+        <div class="video_grid_container">
+            <!--My video-deseign-start-->
+            <div class="video_preview_container">
+                <img src="/video_images/marquee.webp" alt="">
+                <div class="time_stamp">
+                    18:00
+                </div>
+            </div>
+
+            <div class="video_info_container">
+                <div class="profile_img_container">
+                    <img src="/video_images/marquee-profile.jpg" alt="">
+                </div>
+                <div class="video_info_grid">
+
+                    <div class="video_title">
+                        15" MacBook Air M2 Review: The Obvious Thing!
+                    </div>
+
+                    <div class="profile_name">
+                        Marques Brownlee
+                    </div>
+                    <div class="video_stats">
+                        2M views · 2 days ago
+                    </div>
+                </div>
+
+                <!-- This place is empty for vert icon-->
+
+            </div>
+            <!--My video-deseign-end-->
+        </div>
+
+        <div class="video_grid_container">
+            <!--My video-deseign-start-->
+            <div class="video_preview_container">
+                <img src="/video_images/freecodecamp.webp" alt="">
+                <div class="time_stamp">
+                    4:51:36
+                </div>
+            </div>
+
+            <div class="video_info_container">
+                <div class="profile_img_container">
+                    <img src="/video_images/freecodecamp-profile.jpg" alt="">
+                </div>
+                <div class="video_info_grid">
+
+                    <div class="video_title">
+                        Algorithms and Data Structures Tutorial-Full Course For Beginners
+                    </div>
+
+                    <div class="profile_name">
+                        freeCodeCamp.org
+                    </div>
+
+                    <div class="video_stats">
+                        3.3M views · 2 years ago
+                    </div>
+                </div>
+
+                <!-- This place is empty for vert icon-->
+
+                <!--My video-deseign-end-->
+            </div>
+        </div>
+
+        <div class="video_grid_container">
+            <!--My video-deseign-start-->
+            <div class="video_preview_container">
+                <img src="/video_images/manchester.webp" alt="">
+                <div class="time_stamp">
+                    5:00
+                </div>
+            </div>
+
+            <div class="video_info_container">
+                <div class="profile_img_container">
+                    <img src="/video_images/manchester-profile.jpg" alt="">
+                </div>
+                <div class="video_info_grid">
+
+                    <div class="video_title">
+                        All 30 Goals 🤩 | Marcus Rashford Player Cam 2022
+                    </div>
+
+                    <div class="profile_name">
+                        Manchester United
+                    </div>
+                    <div class="video_stats">
+                        414k views · 6 days ago
+                    </div>
+                </div>
+
+                <!-- This place is empty for vert icon-->
+            </div>
+            <!--My video-deseign-end-->
+        </div>
+
+
+        <div class="video_grid_container">
+            <!--My video-deseign-start-->
+            <div class="video_preview_container">
+                <img src="/video_images/sabinus.webp" alt="">
+                <div class="time_stamp">
+                    8:02
+                </div>
+            </div>
+
+            <div class="video_info_container">
+                <div class="profile_img_container">
+                    <img src="/video_images/sabinus.jpg" alt="">
+                </div>
+                <div class="video_info_grid">
+
+                    <div class="video_title">
+                        Investor Sabinus Expossed - Oga Sabinus
+                    </div>
+
+                    <div class="profile_name">
+                        Oga Sabinus
+                    </div>
+                    <div class="video_stats">
+                        1.4M views · 8 months ago
+                    </div>
+                </div>
+
+                <!-- This place is empty for vert icon-->
+            </div>
+            <!--My video-deseign-end-->
+        </div>
+
+        <div class="video_grid_container">
+            <!--My video-deseign-start-->
+            <div class="video_preview_container">
+                <img src="/video_images/brfootball.webp" alt="">
+                <div class="time_stamp">
+                    1:02
+                </div>
+            </div>
+
+            <div class="video_info_container">
+                <div class="profile_img_container">
+                    <img src="/video_images/brfootball.jpg" alt="">
+                </div>
+                <div class="video_info_grid">
+
+                    <div class="video_title">
+                        The Champions: Season 7 Trailer
+                    </div>
+
+                    <div class="profile_name">
+                        B/R Football
+                    </div>
+                    <div class="video_stats">
+                        392K views · 9 days ago
+                    </div>
+                </div>
+
+                <!-- This place is empty for vert icon-->
+            </div>
+            <!--My video-deseign-end-->
+        </div>
+
+        <div class="video_grid_container">
+            <!--My video-deseign-start-->
+           <div class="video_preview_container">
+               <img src="/video_images/tayo.webp" alt="">
+               <div class="time_stamp">
+                    15:08
+               </div>
+           </div>
+
+           <div class="video_info_container">
+               <div class="profile_img_container">
+                   <img src="/video_images/tayo.jpg" alt="">
+               </div>
+               <div class="video_info_grid">
+                   
+                    <div class="video_title">
+                       Inside Africa's $60 Million Silicon Valley
+                    </div>
+
+                   <div class="profile_name">
+                       Tayo Aina
+                   </div>
+                   <div class="video_stats">
+                       200K views · 12 days ago
+                   </div>
+               </div>   
+               
+               <!-- This place is empty for vert icon-->
+            </div>  
+            <!--My video-deseign-end-->
+        </div>
+
+        <div class="video_grid_container">
+            <!--My video-deseign-start-->
+           <div class="video_preview_container">
+               <img src="/video_images/unbox.webp" alt="">
+               <div class="time_stamp">
+                    18:28
+               </div>
+           </div>
+
+           <div class="video_info_container">
+               <div class="profile_img_container">
+                   <img src="/video_images/unbox.jpg" alt="">
+               </div>
+               <div class="video_info_grid">
+                   
+                    <div class="video_title">
+                       Google Pixel Fold Unboxing
+                    </div>
+
+                   <div class="profile_name">
+                       Unbox Therapy
+                   </div>
+                   <div class="video_stats">
+                       1.1M views · 1 month ago
+                   </div>
+               </div>   
+               
+               <!-- This place is empty for vert icon-->
+            </div>  
+            <!--My video-deseign-end-->
+        </div>
+    </div>
+</body>
+
+</html>
