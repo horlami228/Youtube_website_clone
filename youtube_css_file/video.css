@@ -77,13 +77,25 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 18px;
+    column-gap: 16px;
     row-gap: 40px;
-	margin-left: 220px;
+	margin-left: 210px;
 	margin-right: 20px;
+}
+
+
+
+@media (max-width: 725px)
+{
+	.all_videos_container
+	{
+		grid-template-columns: 1fr 1fr;
+	}
+	
 }
 
 .video_grid_container
 {
     cursor: pointer;
 }
+

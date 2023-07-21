@@ -14,7 +14,7 @@
 	left: 0px;
 	z-index: 2;
 	background-color: white;
-	width: 200px;
+	width: 210px;
 	margin-top: 75px;
 	display: flex;
 	flex-direction: column;
@@ -46,6 +46,7 @@
 	border-radius: 10px;
 	width: 200px;
 	height: 40px;
+	cursor: pointer;
 }
 
 .first-layer-side-bar
@@ -69,3 +70,16 @@
 	margin-bottom: 10px;
 
 }
+
+.inside-box-container:hover
+{
+	background-color: rgba(201, 201, 201, 0.266);
+	border-radius: 10px;
+	width: 200px;
+
+}
+.inside-box-container-for-home:hover
+{
+	background-color: rgba(201, 201, 201, 0.456);
+}
+
